@@ -1,0 +1,129 @@
+/* Fondo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1f2937, #4b5563); /* azul gris oscuro a gris medio */
+    color: white;
+    margin: 20px;
+}
+
+
+/* Contenedor principal */
+.contenedor {
+    background-color: #ffffff;
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+}
+
+/* Fila de selección */
+.fila-seleccion {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+/* Agrupación de campos */
+.grupo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+/* Select (cursos y alumnos) */
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-weight: bold;
+}
+
+/* Inputs para notas */
+input[type="number"], input[readonly] {
+    width: 80px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    background-color: #f8f9fa;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Botones */
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.volver {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+button.volver:hover {
+    background-color: #5a6268;
+}
+
+button.guardar {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button.guardar:hover {
+    background-color: #218838;
+}
+
+
