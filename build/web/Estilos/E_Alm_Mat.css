@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    color: #f8f9fa;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.institute-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.table-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(13, 110, 253, 0.95);
+}
+
+.table-header div {
+    padding: 14px 18px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table-header div:last-child {
+    border-right: none;
+}
+
+.table-body {
+    background-color: rgba(255, 255, 255, 0.03);
+    min-height: 250px;
+    padding: 25px;
+    text-align: center;
+    color: #d1d1d1;
+    font-style: italic;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.action-button {
+    background-color: #0d6efd;
+    border: none;
+    padding: 14px 32px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.action-button:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+}
+
+.action-button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
